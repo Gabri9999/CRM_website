@@ -1,0 +1,113 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito',sans-serif;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+.nvb1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.nav-buttons{
+    margin-left: 50%;
+}
+
+.btn1 {
+  background-color: #708090;
+  border: 1px solid #555;
+  color: white;
+}
+
+.btn1:hover {
+  background-color: #5a6a78;
+  border-color: #444;
+  color: orange;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 25px;
+    padding: 0 20px;
+    color: grey;
+    transition: 0.5s ease;
+}
+
+.nvb1 .nav-item .nav-link:hover i{
+    color: orange;
+}
+
+
+.nvb2{
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 220px;
+    background: #042331;
+}
+
+.nav .nav-item .nav-link{
+   font-size: 20px;
+   color: white;
+   margin-bottom: 150px;
+   box-sizing: border-box;
+   border-top: 2px solid #4682B4;
+   border-bottom: 2px solid #4682B4;
+   border-radius: 10px;
+}
+
+.nav .nav-item .nav-link .fa{
+   margin-right: 10px;
+}
+
+.nvb2 .nav-item .nav-link:hover{
+    color: orange;
+}
+
+
+.cont table{
+    width: 100%;
+    text-align: center;
+    margin-left: 50px;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    
+}
+
+.cont1 table{
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.cont1 th{
+    font-size: 12px;
+    text-align: left;
+    padding: 2px 5px;
+    color: grey;
+}
+
+.cont1 td{
+    font-size: 15px;
+    text-align: left;
+    padding: 2px 5px;
+    color: black;
+}
+
+.col {
+    position: relative;
+    background-color: skyblue; 
+    clip-path: polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
